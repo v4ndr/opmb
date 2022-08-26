@@ -1,0 +1,10 @@
+img:hover {
+    opacity: 0.9;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
