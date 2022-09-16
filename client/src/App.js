@@ -13,7 +13,7 @@ function App() {
   // eslint-disable-next-line no-unused-vars
   const [playState, setPlayState] = React.useState(false);
   const media = React.useRef(null);
-  const url = `http://localhost:3001/stream?mood=${mood}`;
+  const url = `https://localhost:3002/stream?mood=${mood}`;
 
   const audio = document.querySelector('audio');
 
@@ -77,6 +77,7 @@ const styles = {
     borderRadius: 10,
     border: 'none',
     width: 110,
+    marginBottom: 100,
   },
 };
 
